@@ -14,7 +14,7 @@ Extremely-riced MacOS system.
 
 ## Setup
 
-Maybe in more detail... nothing fancy you could follow the tutorials for setting up each of these
+Maybe in more detail... nothing fancy you could follow the tutorials for setting up each of these,
 copy my dots, and you should be good to go :)
 
 ## Credits
