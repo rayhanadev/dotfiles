@@ -10,6 +10,7 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/.local/share/fnm:$PATH"
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+export PATH="$HOME/.config/nvim/bin:$PATH"
 export PATH="$HOME/.bun/bin:$PATH"
 export GPG_TTY="${TTY:-$(tty)}"
 
