@@ -1,0 +1,103 @@
+## ░█▀▀░▀█▀░█▀█░█▀▄░█▀▀░█░█░▀█▀░█▀█
+## ░▀▀█░░█░░█▀█░█▀▄░▀▀█░█▀█░░█░░█▀▀
+## ░▀▀▀░░▀░░▀░▀░▀░▀░▀▀▀░▀░▀░▀▀▀░▀░░
+## CROSS-SHELL PROMPT
+##
+## rxyhn's starship configuration
+## The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+
+palette = "catppuccin_mocha"
+
+format = "$all"
+right_format = """$git_branch$git_status$cmd_duration$directory"""
+
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = " [](sapphire)"
+error_symbol = " [](red)"
+vicmd_symbol = "[  ](green)"
+
+[hostname]
+ssh_only = true
+format = "[$hostname](bold blue) "
+disabled = false
+
+[cmd_duration]
+min_time = 1
+format = "[](fg:surface0 bg:none)[$duration]($style)[](fg:surface0 bg:surface0)[](fg:mauve bg:surface0)[](fg:surface0 bg:mauve)[](fg:mauve bg:none) "
+disabled = false
+style = "fg:text bg:surface0"
+
+[directory]
+format = "[](fg:surface0 bg:none)[$path]($style)[](fg:surface0 bg:surface0)[](fg:blue bg:surface0)[](fg:surface0 bg:blue)[](fg:blue bg:none)"
+style = "fg:text bg:surface0"
+truncation_length = 3
+truncate_to_repo=false
+
+[git_branch]
+format = "[](fg:surface0 bg:none)[$branch]($style)[](fg:surface0 bg:surface0)[](fg:green bg:surface0)[](fg:surface0 bg:green)[](fg:green bg:none) "
+style = "fg:text bg:surface0"
+
+[git_status]
+format="[](fg:surface0 bg:none)[$all_status$ahead_behind]($style)[](fg:surface0 bg:surface0)[](fg:teal bg:surface0)[](fg:surface0 bg:teal)[](fg:teal bg:none) "
+style = "fg:text bg:surface0"
+conflicted = "="
+ahead =	"⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+up_to_date = ""
+untracked = "?${count}"
+stashed = "󱉙"
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»${count}"
+deleted = "󰩹${count}"
+
+[git_commit]
+format = "[\\($hash\\)]($style) [\\($tag\\)]($style)"
+style = "green"
+
+[git_state]
+rebase = "REBASING"
+merge =	"MERGING"
+revert = "REVERTING"
+cherry_pick = "CHERRY-PICKING"
+bisect = "BISECTING"
+am = "AM"
+am_or_rebase = "AM/REBASE"
+style =	"yellow"
+format = '\([$state( $progress_current/$progress_total)]($style)\) '
+
+[palettes.catppuccin_mocha]
+rosewater = "#f5e0dc"
+flamingo = "#f2cdcd"
+pink = "#f5c2e7"
+mauve = "#cba6f7"
+red = "#f38ba8"
+maroon = "#eba0ac"
+peach = "#fab387"
+yellow = "#f9e2af"
+green = "#a6e3a1"
+teal = "#94e2d5"
+sky = "#89dceb"
+sapphire = "#74c7ec"
+blue = "#89b4fa"
+lavender = "#b4befe"
+text = "#cdd6f4"
+subtext1 = "#bac2de"
+subtext0 = "#a6adc8"
+overlay2 = "#9399b2"
+overlay1 = "#7f849c"
+overlay0 = "#6c7086"
+surface2 = "#585b70"
+surface1 = "#45475a"
+surface0 = "#313244"
+base = "#1e1e2e"
+mantle = "#181825"
+crust = "#11111b"
+
