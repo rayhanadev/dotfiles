@@ -78,7 +78,7 @@
           "spans-displays" = 0;
         };
         "com.apple.WindowManager" = {
-          EnableStandardClickToShowDesktop = 1;
+          EnableStandardClickToShowDesktop = 0;
           StandardHideDesktopIcons = 0;
           HideDesktop = 0;
           StageManagerHideWidgets = 0;
