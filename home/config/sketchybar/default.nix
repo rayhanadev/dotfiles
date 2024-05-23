@@ -29,16 +29,8 @@
       source = ./config/items/front_app.sh;
       executable = true;
     };
-    "sketchybar/items/github.sh" = {
-      source = ./config/items/github.sh;
-      executable = true;
-    };
     "sketchybar/items/spaces.sh" = {
       source = ./config/items/spaces.sh;
-      executable = true;
-    };
-    "sketchybar/items/spotify.sh" = {
-      source = ./config/items/spotify.sh;
       executable = true;
     };
     "sketchybar/items/volume.sh" = {
@@ -62,20 +54,12 @@
       source = ./config/plugins/calendar.sh;
       executable = true;
     };
-    "sketchybar/plugins/github.sh" = {
-      source = ./config/plugins/github.sh;
-      executable = true;
-    };
     "sketchybar/plugins/icon_map.sh" = {
       source = ./config/plugins/icon_map.sh;
       executable = true;
     };
     "sketchybar/plugins/space.sh" = {
       source = ./config/plugins/space.sh;
-      executable = true;
-    };
-    "sketchybar/plugins/spotify.sh" = {
-      source = ./config/plugins/spotify.sh;
       executable = true;
     };
     "sketchybar/plugins/volume_click.sh" = {
