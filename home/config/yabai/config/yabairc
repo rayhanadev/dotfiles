@@ -36,6 +36,7 @@ yabai -m rule --add app="^BetterDiscord$" manage=off
 yabai -m rule --add app="^Messages$" manage=off
 yabai -m rule --add app="^No Mans Sky$" manage=off
 yabai -m rule --add app="^Extension: (Bitwarden - Free Password Manager) - Bitwarden" manage=off
+
 # sketchybar
 yabai -m signal --add event=window_focused action="sketchybar --trigger window_focus"
 yabai -m signal --add event=window_created action="sketchybar --trigger windows_on_spaces"
