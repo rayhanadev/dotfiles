@@ -47,4 +47,5 @@ space_creator=(
 
 sketchybar --add item space_creator left \
   --set space_creator "${space_creator[@]}" \
-  --subscribe space_creator space_windows_change
+  --subscribe space_creator space_windows_change \
+  --subscribe space_creator space_change
