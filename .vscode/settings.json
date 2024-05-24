@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "mach_port.h": "c",
+        "stdio.h": "c"
+    }
+}

@@ -51,10 +51,12 @@
   # services.gpg-agent.enable = true;
 
   imports = [
+    ./config/borders
     ./config/eza
     ./config/git
     ./config/neovim
     ./config/sketchybar
+    ./config/skhd
     ./config/skim
     ./config/starship
     ./config/yabai

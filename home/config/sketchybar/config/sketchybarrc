@@ -12,11 +12,12 @@ FONT="SF Pro" # Needs to have Regular, Bold, Semibold, Heavy and Black variants
 PADDINGS=3 # All paddings use this value (icon, label, background)
 
 # Setting up and starting the helper process
-HELPER=git.rayhanadev.helper
+HELPER=git.felix.helper
 killall helper
 (cd $CONFIG_DIR/helper && make)
 $CONFIG_DIR/helper/helper $HELPER > /dev/null 2>&1 &
 
+# TODO(rayhanadev): add this to modules/system/default.nix
 # Unload the macOS on screen indicator overlay for volume change
 launchctl unload -F /System/Library/LaunchAgents/com.apple.OSDUIHelper.plist > /dev/null 2>&1 &
 
@@ -24,6 +25,7 @@ launchctl unload -F /System/Library/LaunchAgents/com.apple.OSDUIHelper.plist > /
 bar=(
   height=45
   color=$BAR_COLOR
+  blur_radius=5
   border_width=2
   border_color=$BAR_BORDER_COLOR
   shadow=off
@@ -33,6 +35,7 @@ bar=(
   padding_left=10
   y_offset=-5
   margin=-2
+  topmost=window
 )
 
 sketchybar --bar "${bar[@]}"
@@ -59,6 +62,7 @@ defaults=(
   popup.background.color=$POPUP_BACKGROUND_COLOR
   popup.blur_radius=20
   popup.background.shadow.drawing=on
+  scroll_texts=on
 )
 
 sketchybar --default "${defaults[@]}"
@@ -72,9 +76,12 @@ source "$ITEM_DIR/front_app.sh"
 # Right
 source "$ITEM_DIR/calendar.sh"
 source "$ITEM_DIR/brew.sh"
+source "$ITEM_DIR/wifi.sh"
 source "$ITEM_DIR/battery.sh"
 source "$ITEM_DIR/volume.sh"
 source "$ITEM_DIR/cpu.sh"
+
+sketchybar --hotload on
 
 # Forcing all item scripts to run (never do this outside of sketchybarrc)
 sketchybar --update

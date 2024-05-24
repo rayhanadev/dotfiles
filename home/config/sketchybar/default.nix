@@ -37,6 +37,10 @@
       source = ./config/items/volume.sh;
       executable = true;
     };
+    "sketchybar/items/wifi.sh" = {
+      source = ./config/items/wifi.sh;
+      executable = true;
+    };
     "sketchybar/items/yabai.sh" = {
       source = ./config/items/yabai.sh;
       executable = true;
@@ -54,8 +58,16 @@
       source = ./config/plugins/calendar.sh;
       executable = true;
     };
+    "sketchybar/plugins/front_app.sh" = {
+      source = ./config/plugins/front_app.sh;
+      executable = true;
+    };
     "sketchybar/plugins/icon_map.sh" = {
       source = ./config/plugins/icon_map.sh;
+      executable = true;
+    };
+    "sketchybar/plugins/space_windows.sh" = {
+      source = ./config/plugins/space_windows.sh;
       executable = true;
     };
     "sketchybar/plugins/space.sh" = {
@@ -68,6 +80,10 @@
     };
     "sketchybar/plugins/volume.sh" = {
       source = ./config/plugins/volume.sh;
+      executable = true;
+    };
+    "sketchybar/plugins/wifi.sh" = {
+      source = ./config/plugins/wifi.sh;
       executable = true;
     };
     "sketchybar/plugins/yabai.sh" = {

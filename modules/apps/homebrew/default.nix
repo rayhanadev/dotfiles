@@ -11,11 +11,16 @@
     };
 
     taps = [
+      "FelixKratz/formulae"
       "homebrew/cask-fonts"
       "homebrew/services"
     ];
 
     brews = [
+      {
+        name = "borders";
+        start_service = true;
+      }
       "curl"
       "openssh"
       "pinentry-mac"
@@ -28,6 +33,7 @@
       "boop"
       "discord"
       "insomnia"
+      "jellyfin-media-player"
       "protonvpn"
       "raycast"
       "sf-symbols"
