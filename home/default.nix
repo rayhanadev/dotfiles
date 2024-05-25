@@ -34,6 +34,7 @@
     python3
     nodejs_20
     nodePackages.pnpm
+    bun
   ];
 
   programs.man = {
