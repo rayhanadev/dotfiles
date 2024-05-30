@@ -35,6 +35,7 @@
     nodejs_20
     nodePackages.pnpm
     bun
+    rustup
   ];
 
   programs.man = {

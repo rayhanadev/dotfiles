@@ -8,6 +8,7 @@
     };
 
     masApps = {
+      # "Parallels Desktop" = 1085114709;
     };
 
     taps = [
@@ -22,6 +23,7 @@
         start_service = true;
       }
       "curl"
+      "mas"
       "openssh"
       "pinentry-mac"
       "wget"
@@ -35,11 +37,16 @@
       "insomnia"
       "jellyfin-media-player"
       "protonvpn"
+      "qbittorrent"
+      "raspberry-pi-imager"
       "raycast"
       "sf-symbols"
       "slack"
+      "steam"
       "visual-studio-code"
+      "vlc"
       "warp"
+      "zoom"
     ];
   };
 }
