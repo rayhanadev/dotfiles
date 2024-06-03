@@ -33,9 +33,11 @@
       "arc"
       "bitwarden"
       "boop"
+      # "cloudflare-warp" # errors out for some reason
       "discord"
       "insomnia"
       "jellyfin-media-player"
+      "lens"
       "protonvpn"
       "qbittorrent"
       "raspberry-pi-imager"

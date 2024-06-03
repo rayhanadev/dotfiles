@@ -7,6 +7,7 @@
     # tools
     aria2
     caddy
+    cloudflared
     cowsay
     docker
     file
@@ -17,6 +18,7 @@
     gnutar
     gnused
     jq
+    kompose
     nmap
     p7zip
     ripgrep
@@ -36,6 +38,7 @@
     nodePackages.pnpm
     bun
     rustup
+    jdk
   ];
 
   programs.man = {
