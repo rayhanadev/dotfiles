@@ -9,6 +9,7 @@
 
     masApps = {
       # "Parallels Desktop" = 1085114709;
+      "XCode" = 497799835;
     };
 
     taps = [
