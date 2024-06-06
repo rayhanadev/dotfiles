@@ -12,7 +12,7 @@
       "Microsoft Outlook" = 985367838;
       "Microsoft PowerPoint" = 462062816;
       "Microsoft Word" = 462054704;
-      "Parallels Desktop" = 1085114709;
+      # "Parallels Desktop" = 1085114709;
       "XCode" = 497799835;
       
     };
@@ -53,6 +53,7 @@
       "steam"
       "visual-studio-code"
       "vlc"
+      "vmware-fusion"
       "warp"
       "zoom"
     ];
