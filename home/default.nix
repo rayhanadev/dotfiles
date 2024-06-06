@@ -19,6 +19,7 @@
     gnused
     jq
     kompose
+    mas
     nmap
     p7zip
     ripgrep
