@@ -8,6 +8,7 @@
     aria2
     caddy
     cloudflared
+    cocoapods
     cowsay
     docker
     file
