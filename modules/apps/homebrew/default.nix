@@ -44,6 +44,7 @@
       "insomnia"
       "jellyfin-media-player"
       "lens"
+      "minecraft"
       "protonvpn"
       "qbittorrent"
       "raspberry-pi-imager"
