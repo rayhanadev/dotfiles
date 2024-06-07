@@ -15,6 +15,7 @@
     fzf
     gawk
     glow
+    google-cloud-sdk
     gnupg
     gnutar
     gnused
