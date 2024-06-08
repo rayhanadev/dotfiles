@@ -45,6 +45,7 @@
       "jellyfin-media-player"
       "lens"
       "minecraft"
+      "prismlauncher"
       "protonvpn"
       "qbittorrent"
       "raspberry-pi-imager"
