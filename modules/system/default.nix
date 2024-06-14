@@ -41,7 +41,7 @@
         "com.apple.sound.beep.feedback" = 0;
         AppleInterfaceStyle = "Dark";
         AppleKeyboardUIMode = 3;
-        ApplePressAndHoldEnabled = true;
+        ApplePressAndHoldEnabled = false;
 
         InitialKeyRepeat = 15;
         KeyRepeat = 3;
