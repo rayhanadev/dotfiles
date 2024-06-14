@@ -41,6 +41,8 @@
       "boop"
       # "cloudflare-warp" # errors out for some reason
       "discord"
+      "fastclicker"
+      "google-chrome"
       "insomnia"
       "jellyfin-media-player"
       "lens"
