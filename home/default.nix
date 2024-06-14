@@ -7,6 +7,7 @@
     # tools
     aria2
     caddy
+    chromedriver
     cloudflared
     cocoapods
     cowsay
@@ -36,7 +37,8 @@
 
     # languages
     lua5_4
-    python3
+    python312
+    uv
     nodejs_20
     nodePackages.pnpm
     bun
