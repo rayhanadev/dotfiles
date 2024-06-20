@@ -21,10 +21,10 @@
       pull.rebase = true;
     };
 
-    # signing = {
-    #   key = "xxx";
-    #   signByDefault = true;
-    # };
+    signing = {
+      key = "5AF21C253DE42A3B";
+      signByDefault = true;
+    };
 
     delta = {
       enable = true;
