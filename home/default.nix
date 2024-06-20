@@ -44,6 +44,7 @@
     bun
     rustup
     jdk
+    go
   ];
 
   programs.man = {
