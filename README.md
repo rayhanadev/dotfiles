@@ -1,4 +1,4 @@
-# ~/.config
+# ~/.dotfiles
 
 Heya, these are my dotfiles for MacOS! I use Nix, nix-darwin, and home-manager to scaffold my configuration.
 
