@@ -1,3 +1,5 @@
+![image](https://github.com/rayhanadev/dotfiles/assets/72509475/81f54465-35b6-4c82-bbcc-c53bbc5e95ac)
+
 # ~/.dotfiles
 
 Heya, these are my dotfiles for MacOS! I use Nix, nix-darwin, and home-manager to scaffold my configuration.
