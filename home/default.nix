@@ -30,6 +30,7 @@
     ripgrep
     socat
     tree
+    turso-cli
     unzip
     which
     xz
