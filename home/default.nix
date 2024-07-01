@@ -9,12 +9,14 @@
     caddy
     chromedriver
     cloudflared
+    cmake
     cocoapods
     cowsay
     docker
     file
     fzf
     gawk
+    gcc-arm-embedded
     glow
     google-cloud-sdk
     gnupg
