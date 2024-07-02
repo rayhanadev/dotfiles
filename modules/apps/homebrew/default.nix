@@ -46,6 +46,7 @@
       "insomnia"
       "jellyfin-media-player"
       "lens"
+      "macfuse"
       "minecraft"
       "prismlauncher"
       "protonvpn"
