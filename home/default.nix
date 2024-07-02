@@ -26,6 +26,7 @@
     kompose
     mas
     nmap
+    pkg-config
     p7zip
     ripgrep
     socat
