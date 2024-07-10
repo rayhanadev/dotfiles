@@ -48,6 +48,8 @@
       "lens"
       "macfuse"
       "minecraft"
+      "notion"
+      "notion-calendar"
       "prismlauncher"
       "protonvpn"
       "qbittorrent"
