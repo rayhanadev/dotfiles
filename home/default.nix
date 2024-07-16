@@ -24,7 +24,7 @@
     gnutar
     gnused
     jq
-    k3s
+    kubectl
     kompose
     mas
     nmap
