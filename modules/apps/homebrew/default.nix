@@ -58,6 +58,7 @@
       "sf-symbols"
       "slack"
       "steam"
+      "tailscale"
       "visual-studio-code"
       "vlc"
       "vmware-fusion"
