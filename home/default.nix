@@ -7,6 +7,7 @@
     # tools
     aria2
     caddy
+    cairo
     chromedriver
     cloudflared
     cmake
@@ -23,11 +24,14 @@
     gnutar
     gnused
     jq
+    k3s
     kompose
     mas
     nmap
-    pkg-config
     p7zip
+    pango
+    pixman
+    pkg-config
     ripgrep
     socat
     tree
