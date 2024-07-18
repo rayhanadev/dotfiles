@@ -15,6 +15,7 @@
     cowsay
     docker
     file
+    flyctl
     fzf
     gawk
     gcc-arm-embedded
@@ -24,8 +25,9 @@
     gnutar
     gnused
     jq
-    kubectl
     kompose
+    kubectl
+    kubernetes-helms
     mas
     nmap
     p7zip
