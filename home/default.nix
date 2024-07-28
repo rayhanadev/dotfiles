@@ -27,7 +27,6 @@
     jq
     kompose
     kubectl
-    kubernetes-helms
     mas
     nmap
     p7zip
@@ -36,6 +35,7 @@
     pkg-config
     ripgrep
     socat
+    sox
     tree
     turso-cli
     unzip
