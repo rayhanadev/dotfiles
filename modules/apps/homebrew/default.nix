@@ -47,6 +47,7 @@
       "jellyfin-media-player"
       "lens"
       "macfuse"
+      "microsoft-teams"
       "minecraft"
       "notion"
       "notion-calendar"
