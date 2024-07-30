@@ -42,6 +42,7 @@
       # "cloudflare-warp" # errors out for some reason
       "discord"
       "fastclicker"
+      "firefox"
       "google-chrome"
       "insomnia"
       "jellyfin-media-player"
