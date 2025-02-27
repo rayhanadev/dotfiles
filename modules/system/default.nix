@@ -15,7 +15,6 @@
         autohide = true;
         show-recents = false;
 
-        wvous-tl-corner = 13;
         wvous-tr-corner = 3;
         wvous-bl-corner = 2;
         wvous-br-corner = 4;

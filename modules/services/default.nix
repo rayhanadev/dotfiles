@@ -2,6 +2,6 @@
   imports = [
     ./sketchybar
     ./skhd
-    ./yabai    
-  ];  
+    ./yabai
+  ];
 }

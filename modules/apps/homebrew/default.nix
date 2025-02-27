@@ -14,13 +14,16 @@
       "Microsoft Word" = 462054704;
       # "Parallels Desktop" = 1085114709;
       "XCode" = 497799835;
-      
+
     };
 
     taps = [
+      "bufbuild/buf"
       "FelixKratz/formulae"
       "homebrew/cask-fonts"
       "homebrew/services"
+      "koekeishiya/formulae"
+      "oven-sh/bun"
     ];
 
     brews = [
@@ -28,11 +31,26 @@
         name = "borders";
         start_service = true;
       }
+      "buf"
+      "bun"
+      "colima"
       "curl"
+      "docker"
+      "docker-buildx"
+      "docker-credential-helper"
+      "helm"
+      "libtool"
       "mas"
       "openssh"
       "pinentry-mac"
+      "python-tk"
+      "qemu"
+      "sketchybar"
+      "skhd"
+      "spicetify-cli"
+      "uv"
       "wget"
+      "yabai"
     ];
 
     casks = [
@@ -40,18 +58,33 @@
       "bitwarden"
       "boop"
       # "cloudflare-warp" # errors out for some reason
+      "cursor"
+      "dbeaver-community"
+      "dbvisualizer"
       "discord"
+      "docker"
       "fastclicker"
+      "figma"
       "firefox"
+      # "font-sketchybar-app-font"
       "google-chrome"
+      "grammarly-desktop"
       "insomnia"
       "jellyfin-media-player"
+      "keybase"
+      "kicad"
       "lens"
+      "loom"
+      "lunar"
       "macfuse"
       "microsoft-teams"
       "minecraft"
+      "mitmproxy"
       "notion"
       "notion-calendar"
+      "obsidian"
+      "ollama"
+      "openvpn-connect"
       "prismlauncher"
       "protonvpn"
       "qbittorrent"
@@ -59,12 +92,17 @@
       "raycast"
       "sf-symbols"
       "slack"
+      "spotify"
       "steam"
       "tailscale"
+      "thonny"
+      "tor-browser"
       "visual-studio-code"
       "vlc"
       "vmware-fusion"
       "warp"
+      "webex"
+      "zed@preview"
       "zoom"
     ];
   };

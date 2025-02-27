@@ -1,5 +1,5 @@
 { pkgs, ... }: {
   services.sketchybar = {
-    enable = true;
+    enable = false;
   };
 }

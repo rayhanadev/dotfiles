@@ -1,19 +1,17 @@
 #!/bin/bash
-
-# Color Palette
-export BLACK=0xff191724
-export WHITE=0xffe0def4
-export RED=0xffeb6f92
-export GREEN=0xff9ccfd8
-export BLUE=0xff31748f
-export YELLOW=0xfff6c177
-export ORANGE=0xffebbcba
-export MAGENTA=0xffc4a7e7
-export GREY=0xff524f67
+export BLACK=0xff101010
+export WHITE=0xffb9b9b9
+export RED=0xff7c7c7c
+export GREEN=0xff8e8e8e
+export BLUE=0xff686868
+export YELLOW=0xffa0a0a0
+export ORANGE=0xff747474
+export MAGENTA=0xffe3e3e3
+export GREY=0xff525252
 export TRANSPARENT=0x00000000
-export BG0=0xee191724
-export BG1=0x6026233a
-export BG2=0x60524f67
+export BG0=0x1A101010
+export BG1=0x60101010
+export BG2=0x60525252
 
 # General bar colors
 export BAR_COLOR=$BG0

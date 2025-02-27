@@ -4,8 +4,8 @@ options=(
     style=round
     width=4.0
     hidpi=off
-    active_color=0xff524f67
-    inactive_color=0xff403d52
+    active_color=0xff686868
+    inactive_color=0xff101010
 )
 
 /opt/homebrew/bin/borders "${options[@]}"
