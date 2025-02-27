@@ -10,6 +10,7 @@
     arkade
     autoconf
     automake
+    btop
     caddy
     cairo
     cloudflared

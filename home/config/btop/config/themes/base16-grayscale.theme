@@ -1,0 +1,83 @@
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#101010"
+
+# Main text color
+theme[main_fg]="#b9b9b9"
+
+# Title color for boxes
+theme[title]="#b9b9b9"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#e3e3e3"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#252525"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#e3e3e3"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#525252"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#f7f7f7"
+
+# Background color of the percentage meters
+theme[meter_bg]="#252525"
+
+# Misc colors for processes box including mini CPU graphs, details memory graph, and details status text
+theme[proc_misc]="#f7f7f7"
+
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#999999"  # Light Gray
+theme[mem_box]="#a0a0a0"  # Medium Gray
+theme[net_box]="#b9b9b9"  # Default Foreground Gray
+theme[proc_box]="#e3e3e3"  # Light Foreground Gray
+
+# Box divider line and small boxes line color
+theme[div_line]="#686868"
+
+# Temperature graph color (Dark -> Medium -> Light)
+theme[temp_start]="#8e8e8e"
+theme[temp_mid]="#a0a0a0"
+theme[temp_end]="#b9b9b9"
+
+# CPU graph colors (Dark -> Medium -> Light)
+theme[cpu_start]="#7c7c7c"
+theme[cpu_mid]="#999999"
+theme[cpu_end]="#e3e3e3"
+
+# Mem/Disk free meter (Dark -> Medium -> Light)
+theme[free_start]="#747474"
+theme[free_mid]="#999999"
+theme[free_end]="#e3e3e3"
+
+# Mem/Disk cached meter (Dark -> Medium)
+theme[cached_start]="#868686"
+theme[cached_mid]="#b9b9b9"
+theme[cached_end]="#e3e3e3"
+
+# Mem/Disk available meter (Dark -> Medium -> Light)
+theme[available_start]="#7c7c7c"
+theme[available_mid]="#999999"
+theme[available_end]="#e3e3e3"
+
+# Mem/Disk used meter (Dark -> Medium)
+theme[used_start]="#8e8e8e"
+theme[used_mid]="#999999"
+theme[used_end]="#b9b9b9"
+
+# Download graph colors (Dark -> Medium -> Light)
+theme[download_start]="#7c7c7c"
+theme[download_mid]="#999999"
+theme[download_end]="#e3e3e3"
+
+# Upload graph colors (Dark -> Medium)
+theme[upload_start]="#8e8e8e"
+theme[upload_mid]="#999999"
+theme[upload_end]="#b9b9b9"
+
+# Process box color gradient for threads, memory, and CPU usage (Dark -> Medium -> Light)
+theme[process_start]="#686868"
+theme[process_mid]="#999999"
+theme[process_end]="#e3e3e3"
