@@ -1,4 +1,4 @@
-![image](https://github.com/rayhanadev/dotfiles/assets/72509475/81f54465-35b6-4c82-bbcc-c53bbc5e95ac)
+![image](https://github.com/user-attachments/assets/fed0e107-19fb-4a6c-b41a-c72745fd979c)
 
 # ~/.dotfiles
 
