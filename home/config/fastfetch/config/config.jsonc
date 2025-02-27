@@ -8,7 +8,6 @@
       "type": "host",
       "format": "{/2}{-}{/}{2}{?3} {3}{?}",
     },
-    "kernel",
     "uptime",
     {
       "type": "battery",
@@ -17,13 +16,19 @@
     "break",
     "packages",
     "shell",
-    "display",
     "terminal",
+    // "editor",
     "break",
     "cpu",
     {
       "type": "gpu",
       "key": "GPU",
+    },
+    {
+      "type": "disk",
+      "folders": "/",
+      "key": "Disk",
+      "format": "{1} / {2} ({3})",
     },
     "memory",
     "break",
