@@ -54,7 +54,7 @@ ensure_first = true
 sudo = true
 
 [brew]
-formulae = ["dmmulroy/tap/jj-starship", "gnupg", "fastfetch", "machlit/tap/cutler", "helix", "tailscale", "chezmoi", "jackielii/tap/skhd-zig", "asmvik/formulae/yabai", "fnm", "oven-sh/bun/bun", "felixkratz/formulae/borders", "felixkratz/formulae/sketchybar", "pinentry-mac"]
-casks = ["thebrowsercompany-dia", "slack@beta", "alcove", "ghostty@tip", "little-snitch", "spotify", "orbstack", "tailscale-app", "antinote", "music-decoy", "screen-studio", "superkey", "discord@canary", "font-sf-pro", "lunar", "font-sketchybar-app-font", "raycast", "zed@preview"]
-taps = ["asmvik/formulae", "machlit/tap", "dmmulroy/tap", "nikitabobko/tap", "felixkratz/formulae", "jackielii/tap", "mediosz/tap", "oven-sh/bun"]
+formulae = ["asmvik/formulae/yabai", "oven-sh/bun/bun", "fastfetch", "gnupg", "dmmulroy/tap/jj-starship", "jackielii/tap/skhd-zig", "pinentry-mac", "zoxide", "tree", "machlit/tap/cutler", "fnm", "felixkratz/formulae/borders", "chezmoi", "felixkratz/formulae/sketchybar", "fzf", "helix", "tailscale"]
+casks = ["font-sf-pro", "discord@canary", "music-decoy", "superkey", "tailscale-app", "alcove", "raycast", "screen-studio", "little-snitch", "ghostty@tip", "lunar", "slack@beta", "zed@preview", "font-sketchybar-app-font", "orbstack", "thebrowsercompany-dia", "antinote", "spotify"]
+taps = ["jackielii/tap", "felixkratz/formulae", "dmmulroy/tap", "oven-sh/bun", "machlit/tap", "mediosz/tap", "nikitabobko/tap", "asmvik/formulae"]
 no_deps = true
