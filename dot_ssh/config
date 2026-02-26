@@ -5,3 +5,6 @@ Include ~/.orbstack/ssh/config
 
 Host server
     HostName 100.80.10.100
+    User ray
+    RemoteForward /run/user/1000/gnupg/S.gpg-agent /User/ray/.gnupg/S.gpg-agent.extra
+    RemoteForward /run/user/1000/gnupg/S.gpg-agent.sh /User/ray/.gnupg/S.gpg-agent.ssh
