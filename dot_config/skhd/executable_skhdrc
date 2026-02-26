@@ -39,10 +39,22 @@ stack < k : yabai -m window --focus stack.prev || yabai -m window --focus stack.
 stack < escape ; default : yabai -m space --layout bsp
 stack < return ; default
 
-# ===== workspace navigation =====
+# ===== workspace navigation (ctrl + arrows) =====
 
-alt - tab : yabai -m space --focus next || yabai -m space --focus first
-alt + shift - tab : yabai -m space --focus prev || yabai -m space --focus last
+ctrl - right : yabai -m space --focus next || yabai -m space --focus first
+ctrl - left : yabai -m space --focus prev || yabai -m space --focus last
+
+# ===== focus space (ctrl + #) =====
+
+ctrl - 1 : yabai -m space --focus 1
+ctrl - 2 : yabai -m space --focus 2
+ctrl - 3 : yabai -m space --focus 3
+ctrl - 4 : yabai -m space --focus 4
+ctrl - 5 : yabai -m space --focus 5
+ctrl - 6 : yabai -m space --focus 6
+ctrl - 7 : yabai -m space --focus 7
+ctrl - 8 : yabai -m space --focus 8
+ctrl - 9 : yabai -m space --focus 9
 
 # ===== move window to space (alt + shift + #) =====
 
