@@ -1,0 +1,25 @@
+#!/bin/bash
+export BLACK=0xff101010
+export WHITE=0xffb9b9b9
+export RED=0xff7c7c7c
+export GREEN=0xff8e8e8e
+export BLUE=0xff686868
+export YELLOW=0xffa0a0a0
+export ORANGE=0xff747474
+export MAGENTA=0xffe3e3e3
+export GREY=0xff525252
+export TRANSPARENT=0x00000000
+export BG0=0x1A101010
+export BG1=0x60101010
+export BG2=0x60525252
+
+# General bar colors
+export BAR_COLOR=$BG0
+export BAR_BORDER_COLOR=$BG2
+export BACKGROUND_1=$BG1
+export BACKGROUND_2=$BG2
+export ICON_COLOR=$WHITE
+export LABEL_COLOR=$WHITE
+export POPUP_BACKGROUND_COLOR=$BAR_COLOR
+export POPUP_BORDER_COLOR=$BACKGROUND_2
+export SHADOW_COLOR=$BLACK

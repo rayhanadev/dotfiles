@@ -1,0 +1,120 @@
+[user]
+	name = Rayhan Noufal Arayilakath
+	email = me@rayhanadev.com
+	signingKey = 00718E3114FEA5B1
+
+[core]
+	editor = hx
+	pager =
+	autocrlf = input
+	excludesFile = ~/.config/git/ignore
+
+[init]
+	defaultBranch = main
+
+[color]
+	ui = auto
+
+[pull]
+	rebase = true
+
+[push]
+	default = simple
+	followTags = true
+
+[fetch]
+	prune = true
+
+[merge]
+	conflictStyle = zdiff3
+
+[rebase]
+	autoStash = true
+	updateRefs = true
+
+[diff]
+	algorithm = histogram
+	renames = true
+	tool = critique
+
+[difftool "critique"]
+	cmd = critique difftool "$LOCAL" "$REMOTE"
+
+[status]
+	showStash = true
+
+[log]
+	date = relative
+	follow = true
+
+[commit]
+	gpgSign = true
+
+[tag]
+	gpgSign = true
+	sort = -version:refname
+
+[credential]
+	helper = osxkeychain
+
+[rerere]
+	enabled = true
+	autoUpdate = true
+
+[branch]
+	sort = -committerdate
+
+[alias]
+	# shortcuts
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	sw = switch
+	cp = cherry-pick
+
+	# staging
+	unstage = reset HEAD --
+	discard = checkout --
+
+	# log
+	last = log -1 HEAD
+	lg = log --oneline --graph --decorate --all
+	ll = log --oneline --graph --decorate -20
+	hist = log --pretty=format:'%C(auto)%h %ad | %s%d [%an]' --date=short
+
+	# diff
+	staged = diff --cached
+	dt = difftool
+
+	# rebase
+	ri = rebase --interactive
+	rc = rebase --continue
+	ra = rebase --abort
+
+	# stash
+	ss = stash push
+	sp = stash pop
+	sl = stash list
+	sd = stash drop
+
+	# worktree
+	wt = worktree
+	wta = worktree add
+	wtl = worktree list
+	wtr = worktree remove
+
+	# push/pull
+	pf = push --force-with-lease
+	pl = pull
+
+	# branch management
+	brd = branch -d
+	brdf = branch -D
+	recent = branch --sort=-committerdate --format='%(committerdate:relative)%09%(refname:short)'
+
+	# misc
+	amend = commit --amend --no-edit
+	undo = reset --soft HEAD~1
+	wip = !git add -A && git commit -m 'WIP'
+	aliases = config --get-regexp ^alias\\.

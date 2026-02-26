@@ -1,0 +1,60 @@
+[set.menuextra.clock]
+FlashDateSeparators = true
+Show24Hour = false
+ShowAMPM = false
+ShowDate = 2
+ShowDayOfWeek = false
+ShowSeconds = true
+
+[set.finder]
+AppleShowAllFiles = true
+CreateDesktop = false
+ShowPathbar = true
+ShowExternalHardDrivesOnDesktop = false
+FXRemoveOldTrashItems = true
+FXEnableExtensionChangeWarning = false
+FXDefaultSearchScope = "SCcf"
+
+[set.AppleMultitouchTrackpad]
+FirstClickThreshold = 0
+TrackpadThreeFingerDrag = true
+
+[set.dock]
+tilesize = 50
+autohide = true
+static-only = true
+show-recents = false
+magnification = false
+orientation = "bottom"
+mineffect = "suck"
+autohide-delay = 0
+autohide-time-modifier = 0
+expose-group-apps = false
+
+[set.screencapture]
+show-thumbnail = false
+target = "clipboard"
+type = "png"
+
+[set.NSGlobalDomain]
+KeyRepeat = 2
+InitialKeyRepeat = 15
+NSDocumentSaveNewDocumentsToCloud = false
+NSAutomaticInlinePredictionEnabled = false
+NSAutomaticSpellingCorrectionEnabled = false
+"com.apple.keyboard.fnState" = false
+
+[command.hostname]
+run = """
+scutil --set ComputerName "Ray’s MacBook Pro"
+scutil --set HostName "ray-macbook-pro"
+scutil --set LocalHostName "ray-macbook-pro"
+"""
+ensure_first = true
+sudo = true
+
+[brew]
+formulae = ["dmmulroy/tap/jj-starship", "gnupg", "fastfetch", "machlit/tap/cutler", "helix", "tailscale", "chezmoi", "jackielii/tap/skhd-zig", "asmvik/formulae/yabai", "fnm", "oven-sh/bun/bun", "felixkratz/formulae/borders", "felixkratz/formulae/sketchybar", "pinentry-mac"]
+casks = ["thebrowsercompany-dia", "slack@beta", "alcove", "ghostty@tip", "little-snitch", "spotify", "orbstack", "tailscale-app", "antinote", "music-decoy", "screen-studio", "superkey", "discord@canary", "font-sf-pro", "lunar", "font-sketchybar-app-font", "raycast", "zed@preview"]
+taps = ["asmvik/formulae", "machlit/tap", "dmmulroy/tap", "nikitabobko/tap", "felixkratz/formulae", "jackielii/tap", "mediosz/tap", "oven-sh/bun"]
+no_deps = true

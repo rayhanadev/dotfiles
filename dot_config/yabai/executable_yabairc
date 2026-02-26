@@ -1,0 +1,97 @@
+#!/usr/bin/env sh
+
+# load scripting addition
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+# sketchybar integration
+yabai -m signal --add event=window_focused action="sketchybar --trigger window_focus"
+
+# ===== layout =====
+
+yabai -m config layout                       bsp
+yabai -m config window_placement             second_child
+yabai -m config window_insertion_point        focused
+yabai -m config split_ratio                  0.50
+yabai -m config split_type                   auto
+yabai -m config auto_balance                 off
+
+# ===== window appearance =====
+
+yabai -m config window_shadow                float
+yabai -m config window_opacity               on
+yabai -m config active_window_opacity        1.00
+yabai -m config normal_window_opacity        0.80
+yabai -m config window_animation_duration    0.0
+yabai -m config window_zoom_persist          on
+yabai -m config insert_feedback_color        0xff9ccfd8
+yabai -m config menubar_opacity              1.0
+
+# ===== display =====
+
+yabai -m config external_bar                 all:42:0
+yabai -m config display_arrangement_order    default
+yabai -m config window_origin_display        focused
+
+# ===== padding =====
+
+yabai -m config top_padding                  8
+yabai -m config bottom_padding               8
+yabai -m config left_padding                 8
+yabai -m config right_padding                8
+yabai -m config window_gap                   8
+
+# ===== mouse =====
+
+yabai -m config mouse_follows_focus          on
+yabai -m config focus_follows_mouse          autofocus
+yabai -m config mouse_modifier               cmd
+yabai -m config mouse_action1                move
+yabai -m config mouse_action2                resize
+yabai -m config mouse_drop_action            swap
+
+# ===== rules =====
+
+# system apps
+yabai -m rule --add app="^System Settings$" manage=off
+yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^System Information$" manage=off
+yabai -m rule --add app="^Activity Monitor$" manage=off
+yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Dictionary$" manage=off
+yabai -m rule --add app="^Software Update$" manage=off
+yabai -m rule --add app="^Archive Utility$" manage=off
+yabai -m rule --add app="^App Store$" manage=off
+yabai -m rule --add app="^Disk Utility$" manage=off
+yabai -m rule --add app="^Font Book$" manage=off
+yabai -m rule --add app="^Installer$" manage=off
+yabai -m rule --add app="^Keychain Access$" manage=off
+yabai -m rule --add app="^Photo Booth$" manage=off
+yabai -m rule --add app="^Screenshot$" manage=off
+
+# media
+yabai -m rule --add app="^VLC$" manage=off
+yabai -m rule --add app="^IINA$" manage=off
+
+# communication
+yabai -m rule --add app="^zoom.us$" manage=off
+yabai -m rule --add app="^FaceTime$" manage=off
+
+# third-party utilities
+yabai -m rule --add app="^Raycast$" manage=off
+yabai -m rule --add app="^Alfred$" manage=off
+yabai -m rule --add app="^1Password$" manage=off
+yabai -m rule --add app="^Karabiner-Elements$" manage=off
+yabai -m rule --add app="^Karabiner-EventViewer$" manage=off
+yabai -m rule --add app="^Steam$" manage=off
+yabai -m rule --add app="^SelfControl$" manage=off
+yabai -m rule --add app="^Boop$" manage=off
+yabai -m rule --add app="^LibreOffice$" manage=off
+yabai -m rule --add app="^Python$" manage=off
+
+# app-specific dialog windows
+yabai -m rule --add app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
+yabai -m rule --add app="^Safari$" title="^(General|(Tab|Password|Website|Extension)s|AutoFill|Se(arch|curity)|Privacy|Advance)$" manage=off
+yabai -m rule --add app="^Inkscape$" title="Select file to save to" manage=off
+
+echo "yabai configuration loaded.."

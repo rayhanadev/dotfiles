@@ -1,0 +1,11 @@
+fpath=(~/.zfunc $fpath)
+autoload -U compinit && compinit
+
+export PATH="$PATH:$HOME/.local/bin"
+export PATH="/Users/ray/.bun/bin:$PATH"
+
+export "GPG_TTY=$(tty)"
+export "SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh"
+
+eval "$(starship init zsh)"
+eval "$(try init ~/projects/tries)"

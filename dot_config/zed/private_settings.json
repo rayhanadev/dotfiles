@@ -1,0 +1,43 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "ssh_connections": [
+    {
+      "host": "server",
+      "args": [],
+      "projects": [
+        {
+          "paths": [
+            "/home/ray/projects/personal/site"
+          ]
+        }
+      ]
+    }
+  ],
+  "buffer_line_height": "standard",
+  "agent_ui_font_size": 14.0,
+  "ui_font_family": "CommitMono",
+  "buffer_font_family": "CommitMono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "icon_theme": "Bearded Icons",
+  "ui_font_size": 14.0,
+  "buffer_font_size": 13.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Ayu Glass Dark",
+  },
+}
