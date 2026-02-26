@@ -25,7 +25,7 @@ alt + shift - e : yabai -m space --balance
 
 # ===== window state (cmd) =====
 
-cmd - m : yabai -m window --toggle zoom-fullscreen; sketchybar --trigger window_focus
+alt + shift - f : yabai -m window --toggle zoom-fullscreen; sketchybar --trigger window_focus
 cmd - return : yabai -m window --toggle native-fullscreen
 cmd - e : ~/.config/skhd/helpers/toggle_minimize.sh
 
