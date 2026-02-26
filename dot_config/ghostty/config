@@ -1,3 +1,22 @@
+# Theme
 theme = Ayu
-font-family = CommitMono Nerd Font
 
+# Font
+font-family = CommitMono Nerd Font
+font-size = 13
+font-thicken = true
+
+# Cursor
+cursor-style = block
+
+# Window
+window-padding-x = 8
+window-padding-y = 8
+window-save-state = never
+
+# Behavior
+mouse-hide-while-typing = true
+window-inherit-working-directory = true
+focus-follows-mouse = true
+quit-after-last-window-closed = true
+clipboard-paste-protection = false
