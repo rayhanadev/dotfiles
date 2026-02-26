@@ -1,10 +1,10 @@
 [set.menuextra.clock]
-FlashDateSeparators = true
+FlashDateSeparators = false
 Show24Hour = false
-ShowAMPM = false
+ShowAMPM = true
 ShowDate = 2
 ShowDayOfWeek = false
-ShowSeconds = true
+ShowSeconds = false
 
 [set.finder]
 AppleShowAllFiles = true
