@@ -7,17 +7,53 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "use_system_window_tabs": false,
+  "tab_bar": {
+    "show": true
+  },
+  "tabs": {
+    "file_icons": false,
+    "git_status": false
+  },
+  "title_bar": {
+    "show_menus": false,
+    "show_branch_icon": true
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "git_panel": {
+    "collapse_untracked_diff": true,
+    "tree_view": true,
+    "status_style": "icon"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "bold_folder_labels": true,
+    "entry_spacing": "comfortable",
+    "hide_gitignore": false
+  },
+  "terminal": {
+    "dock": "right",
+    "toolbar": {
+      "breadcrumbs": true
+    }
+  },
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true
+    }
+  },
+  "redact_private_values": false,
   "ssh_connections": [
     {
       "host": "server",
       "args": [],
-      "projects": [
-        {
-          "paths": [
-            "/home/ray/projects/personal/site"
-          ]
-        }
-      ]
+      "projects": []
     }
   ],
   "buffer_line_height": "standard",
@@ -38,6 +74,6 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Ayu Glass Dark",
-  },
+    "dark": "Ayu Glass Dark"
+  }
 }
