@@ -40,3 +40,5 @@ venv/
 
 # Thumbnails
 Thumbs.db
+
+**/.claude/settings.local.json
