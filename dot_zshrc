@@ -12,3 +12,5 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 source <(fzf --zsh)
 eval "$(fnm env --use-on-cd --shell zsh)"
+
+alias claude="claude --dangerously-skip-permissions"
