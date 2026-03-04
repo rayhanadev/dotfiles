@@ -88,6 +88,7 @@ yabai -m rule --add app="^SelfControl$" manage=off
 yabai -m rule --add app="^Boop$" manage=off
 yabai -m rule --add app="^LibreOffice$" manage=off
 yabai -m rule --add app="^Python$" manage=off
+yabai -m rule --add app="^Screen Studio$" manage=off
 
 # app-specific dialog windows
 yabai -m rule --add app="^Finder$" title="(Co(py|nnect)|Move|Info|Pref)" manage=off
