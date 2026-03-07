@@ -8,3 +8,7 @@ Host server
     User ray
     RemoteForward /run/user/1000/gnupg/S.gpg-agent /Users/ray/.gnupg/S.gpg-agent.extra
     RemoteForward /run/user/1000/gnupg/S.gpg-agent.sh /Users/ray/.gnupg/S.gpg-agent.ssh
+
+Host vulcan
+    HostName vulcan.moe
+    Port 4225
