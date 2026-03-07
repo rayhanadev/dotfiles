@@ -54,7 +54,7 @@ ensure_first = true
 sudo = true
 
 [brew]
-formulae = ["asmvik/formulae/yabai", "oven-sh/bun/bun", "fastfetch", "gnupg", "dmmulroy/tap/jj-starship", "jackielii/tap/skhd-zig", "pinentry-mac", "zoxide", "tree", "machlit/tap/cutler", "fnm", "felixkratz/formulae/borders", "chezmoi", "felixkratz/formulae/sketchybar", "fzf", "helix", "tailscale"]
-casks = ["font-sf-pro", "discord@canary", "music-decoy", "superkey", "tailscale-app", "alcove", "raycast", "screen-studio", "little-snitch", "ghostty@tip", "lunar", "slack@beta", "zed@preview", "font-sketchybar-app-font", "orbstack", "thebrowsercompany-dia", "antinote", "spotify"]
-taps = ["jackielii/tap", "felixkratz/formulae", "dmmulroy/tap", "oven-sh/bun", "machlit/tap", "mediosz/tap", "nikitabobko/tap", "asmvik/formulae"]
+formulae = ["gnupg", "felixkratz/formulae/sketchybar", "machlit/tap/cutler", "tursodatabase/tap/turso", "tailscale", "jackielii/tap/skhd-zig", "fastfetch", "helix", "chezmoi", "oven-sh/bun/bun", "glow", "asmvik/formulae/yabai", "tree", "pinentry-mac", "zoxide", "gh", "dmmulroy/tap/jj-starship", "agent-browser", "fzf", "felixkratz/formulae/borders", "fnm"]
+casks = ["raycast", "lunar", "thebrowsercompany-dia", "antinote", "notion", "zed@preview", "discord@canary", "music-decoy", "little-snitch", "steam", "ghostty@tip", "slack@beta", "karabiner-elements", "font-sketchybar-app-font", "tailscale-app", "alcove", "spotify", "screen-studio", "font-sf-pro", "superkey", "orbstack", "prismlauncher"]
+taps = ["dmmulroy/tap", "asmvik/formulae", "mediosz/tap", "libsql/sqld", "nikitabobko/tap", "oven-sh/bun", "jackielii/tap", "felixkratz/formulae", "tursodatabase/tap", "machlit/tap"]
 no_deps = true
