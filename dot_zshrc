@@ -3,6 +3,7 @@ autoload -U compinit && compinit
 
 export PATH="$PATH:$HOME/.local/bin"
 export PATH="/Users/ray/.bun/bin:$PATH"
+export PATH="/Users/ray/.cargo/bin:$PATH"
 
 export "GPG_TTY=$(tty)"
 export "SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh"
@@ -12,5 +13,8 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 source <(fzf --zsh)
 eval "$(fnm env --use-on-cd --shell zsh)"
+eval "$(fixit init --name f zsh)"
 
 alias claude="claude --dangerously-skip-permissions"
+alias c="claude --dangerously-skip-permissions"
+alias fuck="fixit"
