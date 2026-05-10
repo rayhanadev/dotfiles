@@ -1,0 +1,39 @@
+model = "gpt-5.5"
+model_reasoning_effort = "xhigh"
+plan_mode_reasoning_effort = "xhigh"
+
+[features]
+codex_hooks = true
+multi_agent = true
+
+[projects."/Users/ray"]
+trust_level = "trusted"
+
+[[hooks.Stop]]
+[[hooks.Stop.hooks]]
+type = "command"
+command = "codex-wakatime --hook"
+timeout = 60
+
+[[hooks.Stop]]
+[[hooks.Stop.hooks]]
+type = "command"
+command = "/Users/ray/.git-ai/bin/git-ai checkpoint codex --hook-input stdin"
+
+[[hooks.PreToolUse]]
+[[hooks.PreToolUse.hooks]]
+type = "command"
+command = "/Users/ray/.git-ai/bin/git-ai checkpoint codex --hook-input stdin"
+
+[[hooks.PostToolUse]]
+[[hooks.PostToolUse.hooks]]
+type = "command"
+command = "/Users/ray/.git-ai/bin/git-ai checkpoint codex --hook-input stdin"
+
+[[hooks.PostToolUse]]
+matcher = "apply_patch"
+
+[[hooks.PostToolUse.hooks]]
+type = "command"
+command = "codex-wakatime --hook"
+timeout = 60
