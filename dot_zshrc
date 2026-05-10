@@ -5,6 +5,11 @@ export PATH="$PATH:$HOME/.local/bin"
 export PATH="/Users/ray/.bun/bin:$PATH"
 export PATH="/Users/ray/.cargo/bin:$PATH"
 
+alias claude="claude --dangerously-skip-permissions"
+alias codex="codex --yolo"
+alias c="claude --dangerously-skip-permissions"
+alias fuck="fixit"
+
 export "GPG_TTY=$(tty)"
 export "SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh"
 gpg-connect-agent updatestartuptty /bye >/dev/null 2>&1
@@ -15,6 +20,5 @@ source <(fzf --zsh)
 eval "$(fnm env --use-on-cd --shell zsh)"
 eval "$(fixit init --name f zsh)"
 
-alias claude="claude --dangerously-skip-permissions"
-alias c="claude --dangerously-skip-permissions"
-alias fuck="fixit"
+# bun completions
+[ -s "/Users/ray/.bun/_bun" ] && source "/Users/ray/.bun/_bun"
