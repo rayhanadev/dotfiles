@@ -1,0 +1,19 @@
+dot_claude/settings.json
+  s_621eeecd1641db::t_27845cc2b3fc31 1-2,4-48,50-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.5",
+  "base_commit_sha": "6f00547d294e46d524245f3b468b9316b06685ab",
+  "prompts": {},
+  "sessions": {
+    "s_621eeecd1641db": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "a1fc1a1b-05d2-4bf8-a951-c1fc8ee5182c",
+        "model": "claude-opus-4-7"
+      },
+      "human_author": "Rayhan Noufal Arayilakath <me@rayhanadev.com>"
+    }
+  }
+}
