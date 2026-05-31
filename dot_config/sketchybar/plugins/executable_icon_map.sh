@@ -448,7 +448,7 @@ function __icon_map() {
    "Notes" | "备忘录" | "メモ" | "Notizen")
         icon_result=":notes:"
         ;;
-   "Cursor")
+   "Cursor" | "Cursor Nightly")
         icon_result=":cursor:"
         ;;
    "Affinity Designer")

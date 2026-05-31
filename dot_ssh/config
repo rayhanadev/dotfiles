@@ -1,14 +1,15 @@
+Include /Users/ray/.ssh/conductor_config
+
 # Added by OrbStack: 'orb' SSH host for Linux machines
 # This only works if it's at the top of ssh_config (before any Host blocks).
 # This won't be added again if you remove it.
 Include ~/.orbstack/ssh/config
 
 Host server
-    HostName 100.80.10.100
     User ray
+    HostName 100.80.10.100
     RemoteForward /run/user/1000/gnupg/S.gpg-agent /Users/ray/.gnupg/S.gpg-agent.extra
     RemoteForward /run/user/1000/gnupg/S.gpg-agent.sh /Users/ray/.gnupg/S.gpg-agent.ssh
 
-Host vulcan
-    HostName vulcan.moe
-    Port 4225
+Host localhost
+    UserKnownHostsFile /dev/null
