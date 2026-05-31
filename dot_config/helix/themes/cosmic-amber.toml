@@ -1,0 +1,100 @@
+# cosmic-amber — burnt amber theme matching wallpaper / sketchybar
+
+# --- UI ---
+"ui.background" = { bg = "bg" }
+"ui.text" = { fg = "fg" }
+"ui.text.focus" = { fg = "fg_bright" }
+"ui.menu" = { fg = "fg", bg = "bg_alt" }
+"ui.menu.selected" = { fg = "bg", bg = "amber" }
+"ui.menu.scroll" = { fg = "amber_dim", bg = "bg_alt" }
+"ui.linenr" = { fg = "amber_dim" }
+"ui.linenr.selected" = { fg = "amber" }
+"ui.cursorline.primary" = { bg = "bg_alt" }
+"ui.statusline" = { fg = "fg", bg = "bg_alt" }
+"ui.statusline.inactive" = { fg = "amber_dim", bg = "bg_alt" }
+"ui.statusline.normal" = { fg = "bg", bg = "amber", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg", bg = "amber_light", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg", bg = "orange", modifiers = ["bold"] }
+"ui.popup" = { fg = "fg", bg = "bg_alt" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "fg", bg = "bg_alt" }
+"ui.cursor" = { fg = "bg", bg = "amber_light" }
+"ui.cursor.match" = { fg = "amber_light", modifiers = ["underlined"] }
+"ui.cursor.primary" = { fg = "bg", bg = "amber_light" }
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+"ui.virtual.whitespace" = { fg = "bg_light" }
+"ui.virtual.ruler" = { bg = "bg_alt" }
+"ui.virtual.indent-guide" = { fg = "bg_light" }
+"ui.virtual.inlay-hint" = { fg = "amber_dim" }
+"ui.bufferline" = { fg = "amber_dim", bg = "bg_alt" }
+"ui.bufferline.active" = { fg = "fg_bright", bg = "bg" }
+
+# --- Syntax ---
+"comment" = { fg = "amber_dim", modifiers = ["italic"] }
+"variable" = { fg = "fg" }
+"variable.builtin" = { fg = "orange" }
+"variable.parameter" = { fg = "fg_bright" }
+"variable.other.member" = { fg = "amber_light" }
+"constant" = { fg = "amber_light" }
+"constant.builtin" = { fg = "orange" }
+"constant.numeric" = { fg = "amber_light" }
+"constant.character.escape" = { fg = "orange" }
+"string" = { fg = "amber" }
+"string.regexp" = { fg = "orange" }
+"keyword" = { fg = "orange", modifiers = ["bold"] }
+"keyword.control" = { fg = "orange" }
+"keyword.directive" = { fg = "orange" }
+"function" = { fg = "amber_light" }
+"function.builtin" = { fg = "amber_light" }
+"function.macro" = { fg = "orange" }
+"type" = { fg = "fg_bright" }
+"type.builtin" = { fg = "fg_bright" }
+"constructor" = { fg = "fg_bright" }
+"operator" = { fg = "amber" }
+"punctuation" = { fg = "amber_dim" }
+"punctuation.delimiter" = { fg = "amber_dim" }
+"punctuation.bracket" = { fg = "amber_dim" }
+"label" = { fg = "orange" }
+"tag" = { fg = "orange" }
+"namespace" = { fg = "fg_bright" }
+"special" = { fg = "orange" }
+
+# --- Markup ---
+"markup.heading" = { fg = "amber_light", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "amber", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "orange" }
+"markup.raw" = { fg = "amber" }
+"markup.list" = { fg = "orange" }
+"markup.quote" = { fg = "amber_dim", modifiers = ["italic"] }
+
+# --- Diagnostics / diff ---
+"diff.plus" = { fg = "green" }
+"diff.minus" = { fg = "red" }
+"diff.delta" = { fg = "amber" }
+"warning" = { fg = "yellow" }
+"error" = { fg = "red" }
+"info" = { fg = "amber" }
+"hint" = { fg = "amber_dim" }
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "amber", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "amber_dim", style = "curl" } }
+
+[palette]
+bg = "#1a0f05"
+bg_alt = "#241405"
+bg_light = "#3a1e08"
+border = "#5b2c03"
+selection = "#5b2c03"
+fg = "#e0a55a"
+fg_bright = "#f5d4a0"
+amber = "#c06c03"
+amber_light = "#e8b070"
+amber_dim = "#8a5418"
+orange = "#d98a2b"
+green = "#9d8a3a"
+yellow = "#e0a23f"
+red = "#d9603a"
