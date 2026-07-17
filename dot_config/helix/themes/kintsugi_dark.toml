@@ -1,0 +1,170 @@
+# Kintsugi theme for Helix
+# https://github.com/giacomocavalieri/kintsugi-zed
+
+# Syntax highlighting
+# -------------------
+"variable" = "default"
+"function" = "default"
+"operator" = "default"
+"variable.other.member" = "default"
+"comment" = { fg = "comment" }
+"string" = "string"
+"constant.numeric" = "number"
+"keyword" = { fg = "keyword", modifiers = ["bold"] }
+"type" = "type"
+"constant.builtin" = "type"
+"attribute" = "attribute"
+
+"markup.bold" = { modifiers = ["bold"] }
+"markup.heading.1" = { modifiers = ["bold"] }
+"markup.heading.2" = { modifiers = ["bold"] }
+"markup.heading.3" = { modifiers = ["bold"] }
+"markup.heading.4" = { modifiers = ["bold"] }
+"markup.heading.5" = { modifiers = ["bold"] }
+"markup.heading.6" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.raw" = "markup_raw"
+"markup.raw.inline" = "markup_raw"
+"punctuation" = "punctuation"
+"punctuation.delimiter" = "punctuation"
+"punctuation.bracket" = "punctuation"
+
+"diff.plus" = "created"
+"diff.minus" = "deleted"
+"diff.delta" = "modified"
+
+# User Interface
+# --------------
+"ui.background" = { fg = "fg", bg = "bg" }
+"ui.background.separator" = { fg = "border" }
+
+"ui.linenr" = { fg = "linenr" }
+"ui.linenr.selected" = { fg = "linenr_active" }
+"ui.gutter" = { bg = "bg" }
+"ui.gutter.selected" = { bg = "bg_active_line" }
+
+"ui.statusline" = { fg = "statusline_fg", bg = "statusline_bg" }
+"ui.statusline.inactive" = { fg = "fg_muted", bg = "statusline_bg" }
+"ui.statusline.normal" = { fg = "bg", bg = "accent", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg", bg = "created", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg", bg = "info", modifiers = ["bold"] }
+"ui.statusline.separator" = { fg = "border" }
+
+"ui.bufferline" = { fg = "fg_muted", bg = "bg_chrome" }
+"ui.bufferline.active" = { fg = "fg", bg = "bg", underline = { color = "accent", style = "line" } }
+"ui.bufferline.background" = { bg = "bg_chrome" }
+
+"ui.popup" = { fg = "fg", bg = "bg_elevated" }
+"ui.popup.info" = { fg = "fg", bg = "bg_elevated" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "fg_ui", bg = "bg_elevated" }
+"ui.picker.header" = { fg = "fg_muted" }
+"ui.picker.header.column" = { fg = "fg_muted" }
+"ui.picker.header.column.active" = { fg = "accent_text" }
+
+"ui.text" = { fg = "fg_ui" }
+"ui.text.focus" = { fg = "fg", bg = "bg_selected", modifiers = ["bold"] }
+"ui.text.inactive" = { fg = "fg_disabled" }
+"ui.text.info" = { fg = "fg_muted" }
+"ui.text.directory" = { fg = "info" }
+"ui.text.symlink" = { fg = "hint" }
+
+"ui.virtual.ruler" = { bg = "ruler" }
+"ui.virtual.whitespace" = { fg = "whitespace" }
+"ui.virtual.indent-guide" = { fg = "indent_guide" }
+"ui.virtual.inlay-hint" = { fg = "inlay_hint_fg", bg = "inlay_hint_bg" }
+"ui.virtual.inlay-hint.parameter" = { fg = "inlay_hint_fg", bg = "inlay_hint_bg" }
+"ui.virtual.inlay-hint.type" = { fg = "inlay_hint_fg", bg = "inlay_hint_bg" }
+"ui.virtual.wrap" = { fg = "fg_muted" }
+"ui.virtual.jump-label" = { fg = "accent_text", modifiers = ["bold"] }
+
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+
+"ui.cursor" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.primary" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.match" = { fg = "accent_text", modifiers = ["bold"] }
+"ui.cursor.normal" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.insert" = { fg = "cursor_text", bg = "created" }
+"ui.cursor.select" = { fg = "cursor_text", bg = "info" }
+"ui.cursor.primary.normal" = { fg = "cursor_text", bg = "cursor" }
+"ui.cursor.primary.insert" = { fg = "cursor_text", bg = "created" }
+"ui.cursor.primary.select" = { fg = "cursor_text", bg = "info" }
+"ui.cursorline.primary" = { bg = "bg_active_line" }
+"ui.cursorline.secondary" = { bg = "bg_active_line" }
+
+"ui.highlight" = { bg = "highlight" }
+"ui.highlight.frameline" = { bg = "bg_active_line" }
+
+"ui.menu" = { fg = "fg_ui", bg = "bg_elevated" }
+"ui.menu.selected" = { fg = "fg", bg = "bg_selected" }
+"ui.menu.scroll" = { fg = "scroll_thumb", bg = "scroll_track" }
+
+"ui.debug.breakpoint" = { fg = "error" }
+"ui.debug.active" = { fg = "warning", modifiers = ["bold"] }
+
+"tabstop" = { fg = "bg", bg = "accent", modifiers = ["bold"] }
+
+"warning" = "warning"
+"error" = "error"
+"info" = "info"
+"hint" = "hint"
+"warning.diagnostic.inline" = { fg = "warning" }
+"error.diagnostic.inline" = { fg = "error" }
+"info.diagnostic.inline" = { fg = "info" }
+"hint.diagnostic.inline" = { fg = "hint" }
+
+"diagnostic" = { underline = { color = "fg_muted", style = "dotted" } }
+"diagnostic.error" = { underline = { color = "error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "warning", style = "curl" } }
+"diagnostic.info" = { underline = { color = "info", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "hint", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+"diagnostic.deprecated" = { modifiers = ["crossed_out"] }
+
+[palette]
+bg = "#161618"
+bg_chrome = "#131314"
+bg_tab_inactive = "#1a1a1d"
+bg_elevated = "#292928"
+bg_selected = "#393b31"
+bg_active_line = "#1d1d1c"
+fg = "#dddddd"
+fg_ui = "#c9c4b8"
+fg_muted = "#75715e"
+fg_disabled = "#75715e"
+border = "#2a2a28"
+accent = "#b8943a"
+accent_text = "#dbad49"
+linenr = "#444444"
+linenr_active = "#b4aa60"
+statusline_fg = "#969b8c"
+statusline_bg = "#131314"
+cursor = "#d4a943"
+cursor_text = "#0e0e0e"
+selection = "#26292d"
+highlight = "#1b1c1f"
+whitespace = "#252525"
+indent_guide = "#1f1f20"
+ruler = "#1f1f1f"
+inlay_hint_fg = "#dbac35"
+inlay_hint_bg = "#2a2a28"
+scroll_thumb = "#2f302b"
+scroll_track = "#292928"
+error = "#b38f8f"
+warning = "#ebcb8b"
+info = "#6c7a8a"
+hint = "#a3be8c"
+created = "#a3be8c"
+deleted = "#b38f8f"
+modified = "#ebcb8b"
+default = "#dddddd"
+comment = "#af9661"
+string = "#98c379"
+number = "#819aff"
+keyword = "#DBAD49"
+type = "#939799"
+attribute = "#678E87"
+markup_raw = "#939799"
+punctuation = "#868165"

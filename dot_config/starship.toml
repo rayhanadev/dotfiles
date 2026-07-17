@@ -1,0 +1,54 @@
+command_timeout = 2000
+
+format = "$directory${custom.scm}$all"
+
+[buf]
+disabled = true
+
+[character]
+error_symbol = "[❯](bold red)"
+success_symbol = "[❯](bold green)"
+
+[directory]
+truncate_to_repo = false
+
+[git_branch]
+disabled = true
+symbol = " "
+truncation_length = 18
+
+[git_status]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[git_state]
+disabled = true
+
+[custom.scm]
+when = "jj-starship detect"
+shell = ["jj-starship", "--strip-bookmark-prefix", "dmmulroy/", "--truncate-name", "20", "--bookmarks-display-limit", "1"]
+format = "$output "
+
+[golang]
+symbol = " "
+
+[nix_shell]
+symbol = " "
+
+[nodejs]
+# Only show Node for actual Node projects. This avoids unnecessary `node
+# --version` calls in repos that just happen to contain JS/TS files.
+detect_extensions = []
+detect_files = ["package.json", ".node-version", ".nvmrc", ".tool-versions", "!bunfig.toml", "!bun.lock", "!bun.lockb"]
+detect_folders = ["node_modules"]
+
+[package]
+disabled = true
+
+[gcloud]
+disabled = true
+
+[bun]
+symbol = " "

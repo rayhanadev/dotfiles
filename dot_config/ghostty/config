@@ -1,8 +1,8 @@
 # Theme
-theme = Ayu
+theme = Kintsugi Dark Flared
 
 # Font
-font-family = CommitMono Nerd Font
+font-family = IoskeleyMonoTerm Nerd Font
 font-size = 13
 font-thicken = true
 

@@ -1,16 +1,31 @@
 {
+  "markdown_preview_font_family": "Ioskeley Mono",
+  "markdown_preview_code_font_family": "IoskeleyMono Nerd Font",
+  "soft_wrap": "none",
+  "proxy": "",
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
   "theme": {
     "mode": "dark",
-    "light": "One Light",
-    "dark": "Ayu Glass Dark"
+    "light": "Kintsugi Light Flared",
+    "dark": "Kintsugi Dark Flared"
   },
-  "ui_font_family": "CommitMono",
-  "ui_font_size": 14.0,
-  "buffer_font_family": "CommitMono",
-  "buffer_font_size": 13.0,
-  "buffer_line_height": "standard",
-  "agent_ui_font_size": 14.0,
-  "icon_theme": "Bearded Icons",
+  "ui_font_family": "Ioskeley Mono",
+  "ui_font_size": 17.0,
+  "buffer_font_family": "IoskeleyMono Nerd Font",
+  "buffer_font_size": 16.0,
+  "buffer_line_height": "comfortable",
+  "buffer_font_features": {
+    "aalt": true
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Bearded Icons",
+    "dark": "Bearded Icons"
+  },
   "autosave": "on_focus_change",
   "vim_mode": true,
   "cli_default_open_behavior": "new_window",
@@ -45,13 +60,14 @@
     "hide_gitignore": false
   },
   "outline_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "collaboration_panel": {
     "button": false,
-    "dock": "right"
+    "dock": "left"
   },
   "terminal": {
+    "font_family": "IoskeleyMonoTerm Nerd Font",
     "show_count_badge": false,
     "dock": "right",
     "toolbar": {
@@ -76,6 +92,15 @@
         }
       },
       "enable_lsp_tasks": true
+    },
+    "react-doctor": {
+      "binary": {
+        "path": "/Users/ray/.bun/bin/react-doctor",
+        "arguments": ["experimental-lsp", "--stdio"]
+      },
+      "initialization_options": {
+        "scanOnType": true
+      }
     }
   },
   "languages": {
@@ -249,8 +274,7 @@
             "name": "oxfmt"
           }
         }
-      ],
-      "language_servers": ["tsgo", "!vtsls", "!typescript-language-server"]
+      ]
     },
     "TSX": {
       "format_on_save": "on",
@@ -263,8 +287,7 @@
             "name": "oxfmt"
           }
         }
-      ],
-      "language_servers": ["tsgo", "!vtsls", "!typescript-language-server"]
+      ]
     },
     "Vue.js": {
       "format_on_save": "on",
@@ -299,6 +322,7 @@
     }
   },
   "agent": {
+    "dock": "right",
     "enabled": false
   },
   "agent_servers": {
